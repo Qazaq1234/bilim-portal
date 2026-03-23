@@ -8,18 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
+    "add": "^2.0.6",
+    "commit": "^0.0.4",
+    "git": "^0.1.5",
     "next": "15.0.0",
+    "push": "^0.1.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "@supabase/supabase-js": "^2.53.0"
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "typescript": "^5.7.2",
+    "@types/node": "^22.10.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@types/node": "^22.10.1",
-    "tailwindcss": "^3.4.16",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
-    "autoprefixer": "^10.4.20"
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
   }
 }
