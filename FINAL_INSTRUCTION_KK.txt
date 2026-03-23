@@ -1,0 +1,19 @@
+1. bilim_portal_final_env.zip аш
+2. Supabase-та SQL Editor аш
+3. bilim_supabase_setup.zip ішіндегі 01_schema.sql толық орында
+4. Проект папкасына кір
+5. .env.local дайын тұр, өзгертудің керегі жоқ
+6. Терминалда:
+   npm install
+   npm run dev
+7. Браузерде:
+   http://localhost:3000
+8. Алғашқы рет директор ретінде тіркел
+9. Одан кейін teacher center code арқылы тіркеле алады
+10. Parent кабинет student code + pin арқылы кіреді
+11. GitHub-қа жүкте
+12. Vercel-де New Project аш
+13. Environment Variables ішіне осы 2 мәнді қос:
+   NEXT_PUBLIC_SUPABASE_URL=https://sexswcmpqgtvsdvbqmkh.supabase.co
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=сен берген anon key
+14. Deploy бас
